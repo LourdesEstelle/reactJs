@@ -30,6 +30,7 @@ function App() {
                       <Route exact path="/students" element={<Students/>} />
                       <Route exact path="/message" element={<Message/>} />
                       <Route exact path="/content" element={<Content/>} />
+                    
                     </Routes>
                 </div>
               <Footer />
