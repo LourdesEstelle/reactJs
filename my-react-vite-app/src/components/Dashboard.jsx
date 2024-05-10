@@ -42,7 +42,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">3</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     John Doe
@@ -53,7 +53,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">4</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     Jane Smith
@@ -64,7 +64,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">5</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     John Doe
@@ -75,7 +75,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">6</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     Jane Smith
@@ -86,7 +86,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">7</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     John Doe
@@ -97,7 +97,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">8</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     Jane Smith
@@ -108,7 +108,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">9</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     John Doe
@@ -119,7 +119,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">10</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     Jane Smith
@@ -130,7 +130,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">11</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     John Doe
@@ -141,7 +141,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">12</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     Jane Smith
@@ -152,7 +152,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">13</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     John Doe
@@ -163,7 +163,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">14</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     Jane Smith
@@ -174,7 +174,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">15</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     John Doe
@@ -185,7 +185,7 @@ export class Dashboard extends Component {
                   </td>
                 </tr>
                 <tr className="hover:bg-gray-200">
-                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">16</td>
                   <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
                     <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
                     Jane Smith
@@ -195,7 +195,7 @@ export class Dashboard extends Component {
                     jane.smith@example.com
                   </td>
                 </tr>
-                {/* Add more rows as needed */}
+                { }
               </tbody>
             </table>
           </div>

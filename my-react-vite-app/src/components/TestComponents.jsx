@@ -23,7 +23,7 @@ function TestComponents() {
             <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300">Jane Smith</td>
             <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300">jane.smith@example.com</td>
           </tr>
-          {/* Add more rows as needed */}
+          { }
         </tbody>
       </table>
     </div>
