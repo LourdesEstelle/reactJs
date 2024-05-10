@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { LaptopIcon, DocumentIcon, BeakerIcon } from '@heroicons/react/solid';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLaptop, faFileAlt, faFlask } from '@fortawesome/free-solid-svg-icons'; // Import specific icons
 
 class Navigation extends Component {
   render() {
@@ -33,33 +34,18 @@ class Logo extends Component {
   }
 }
 
-import { SolidLaptopIcon, SolidDocumentIcon, SolidBeakerIcon } from '@heroicons/react/solid';
-
 class Graphics extends Component {
   render() {
     return (
       <div className="grid grid-cols-3 gap-4">
         {/* Placeholder graphics */}
-        <a href="https://ustep.ustp.edu.ph/login/index.php" className="bg-gray-300 p-4 block text-center hover:bg-gray-400 transition duration-300">
-          <SolidLaptopIcon className="h-6 w-6 mx-auto mb-2" />
-          Graphic 1
-        </a>
-        <a href="https://prisms.ustp.edu.ph/auth/login" className="bg-gray-300 p-4 block text-center hover:bg-gray-400 transition duration-300">
-          <SolidDocumentIcon className="h-6 w-6 mx-auto mb-2" />
-          Graphic 2
-        </a>
-        <a href="https://hims.ustp.edu.ph/" className="bg-gray-300 p-4 block text-center hover:bg-gray-400 transition duration-300">
-          <SolidBeakerIcon className="h-6 w-6 mx-auto mb-2" />
-          Graphic 3
-        </a>
+        <a href="https://ustep.ustp.edu.ph/login/index.php" className="bg-gray-300 p-4 block text-center hover:bg-gray-400 transition duration-300">Graphic 1</a>
+        <a href="https://prisms.ustp.edu.ph/auth/login" className="bg-gray-300 p-4 block text-center hover:bg-gray-400 transition duration-300">Graphic 2</a>
+        <a href="https://hims.ustp.edu.ph/" className="bg-gray-300 p-4 block text-center hover:bg-gray-400 transition duration-300">Graphic 3</a>
       </div>
     );
   }
 }
-
-
-
-
 
 class AdminProfile extends Component {
   render() {

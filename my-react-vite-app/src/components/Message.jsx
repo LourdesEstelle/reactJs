@@ -17,9 +17,9 @@ function Message() {
   };
 
   return (
-    <div className="container mx-auto max-w-lg p-4 bg-white rounded-lg shadow-md"> {/* Changed bg to white */}
+    <div className="container mx-auto max-w-lg p-4 bg-gray-100 rounded-lg shadow-md">
       <div className="flex justify-between items-center mb-4">
-        <h1 className="text-lg font-semibold text-gray-800">Messages</h1>
+        <h1 className="text-lg font-semibold text-gray-800">Messenger</h1>
       </div>
       <div className="messages-container">
         {messages.map((message, index) => (
@@ -34,7 +34,7 @@ function Message() {
           value={inputValue}
           onChange={handleInputChange}
           placeholder="Type a message..."
-          className="flex-1 p-2 rounded-l-lg border border-gray-300 w-4/4" // Adjusted width
+          className="flex-1 p-2 rounded-l-lg border border-gray-300"
         />
         <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-r-lg">
           Send
