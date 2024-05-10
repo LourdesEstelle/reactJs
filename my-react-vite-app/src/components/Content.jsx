@@ -85,7 +85,7 @@ class Content extends Component {
   render() {
     return (
       <main className="flex-1 bg-white p-8"> {}
-        <h2 className="text-gray-700 text-2xl font-semibold mb-4">Content</h2>
+        <h2 className="text-gray-700 text-2xl font-semibold mb-4">Faculty</h2>
         {}
         <Navigation />
         <Logo />
