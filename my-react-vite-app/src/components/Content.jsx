@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptop, faFileAlt, faFlask } from '@fortawesome/free-solid-svg-icons'; // Import specific icons
+import { faUser, faGraduationCap, faFileAlt, faSyringe } from '@fortawesome/free-solid-svg-icons'; // Import the necessary icons
+import USTPLogo from './USTPLOGO.jpg'; // Import the logo image
 
 class Navigation extends Component {
   render() {
@@ -26,22 +27,38 @@ class Navigation extends Component {
 class Logo extends Component {
   render() {
     return (
-      <div className="text-center mb-8">
+      <div className="flex justify-center mb-8">
         {/* Placeholder logo */}
-        <h1 className="text-3xl font-bold text-gray-900">Logo</h1>
+        <img src={USTPLogo} alt="Logo" className="h-45" />
       </div>
     );
   }
 }
+
 
 class Graphics extends Component {
   render() {
     return (
       <div className="grid grid-cols-3 gap-4">
         {/* Placeholder graphics */}
-        <a href="https://ustep.ustp.edu.ph/login/index.php" className="bg-gray-300 p-4 block text-center hover:bg-gray-400 transition duration-300">Graphic 1</a>
-        <a href="https://prisms.ustp.edu.ph/auth/login" className="bg-gray-300 p-4 block text-center hover:bg-gray-400 transition duration-300">Graphic 2</a>
-        <a href="https://hims.ustp.edu.ph/" className="bg-gray-300 p-4 block text-center hover:bg-gray-400 transition duration-300">Graphic 3</a>
+        <div className="bg-gray-300 p-4 text-center hover:bg-gray-400 transition duration-300">
+          <div className="mb-2">
+            <FontAwesomeIcon icon={faGraduationCap} className="text-gray-700 text-xl inline-block mb-2" />
+          </div>
+          <a href="https://ustep.ustp.edu.ph/login/index.php">Ustep</a>
+        </div>
+        <div className="bg-gray-300 p-4 text-center hover:bg-gray-400 transition duration-300">
+          <div className="mb-2">
+            <FontAwesomeIcon icon={faFileAlt} className="text-gray-700 text-xl inline-block mb-2" />
+          </div>
+          <a href="https://prisms.ustp.edu.ph/auth/login">Prisms</a>
+        </div>
+        <div className="bg-gray-300 p-4 text-center hover:bg-gray-400 transition duration-300">
+          <div className="mb-2">
+            <FontAwesomeIcon icon={faSyringe} className="text-gray-700 text-xl inline-block mb-2" />
+          </div>
+          <a href="https://hims.ustp.edu.ph/">HIMS</a>
+        </div>
       </div>
     );
   }
@@ -51,9 +68,14 @@ class AdminProfile extends Component {
   render() {
     return (
       <div className="bg-gray-300 p-4 mb-4">
+        {/* Large profile icon */}
+        <FontAwesomeIcon icon={faUser} className="text-gray-700 mr-2 fa-lg" />
         {/* Placeholder admin profile */}
-        <h2 className="text-xl font-semibold mb-2">Admin Profile</h2>
-        <p>This is the admin's profile information.</p>
+        <div>
+          <h2 className="text-xl font-semibold mb-2">Admin Profile</h2>
+          <p className="text-gray-800 mb-2">Name: John Doe</p>
+          <p className="text-gray-800">Email: admin@example.com</p>
+        </div>
       </div>
     );
   }
@@ -62,7 +84,7 @@ class AdminProfile extends Component {
 class Content extends Component {
   render() {
     return (
-      <main className="flex-1 bg-gray-100 p-8">
+      <main className="flex-1 bg-white p-8"> {/* Changed bg-gray-100 to bg-white */}
         <h2 className="text-gray-700 text-2xl font-semibold mb-4">Content</h2>
         {/* Render placeholder components */}
         <Navigation />

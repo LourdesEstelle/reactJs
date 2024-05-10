@@ -41,6 +41,160 @@ export class Dashboard extends Component {
                     jane.smith@example.com
                   </td>
                 </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    John Doe
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    john.doe@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    Jane Smith
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    jane.smith@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    John Doe
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    john.doe@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    Jane Smith
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    jane.smith@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    John Doe
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    john.doe@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    Jane Smith
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    jane.smith@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    John Doe
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    john.doe@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    Jane Smith
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    jane.smith@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    John Doe
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    john.doe@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    Jane Smith
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    jane.smith@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    John Doe
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    john.doe@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    Jane Smith
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    jane.smith@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">1</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    John Doe
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    john.doe@example.com
+                  </td>
+                </tr>
+                <tr className="hover:bg-gray-200">
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">2</td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faUser} className="text-gray-500 mr-2" />
+                    Jane Smith
+                  </td>
+                  <td className="px-6 py-4 whitespace-nowrap border-b border-gray-300 text-gray-700">
+                    <FontAwesomeIcon icon={faEnvelope} className="text-gray-500 mr-2" />
+                    jane.smith@example.com
+                  </td>
+                </tr>
                 {/* Add more rows as needed */}
               </tbody>
             </table>

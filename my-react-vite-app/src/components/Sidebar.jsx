@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Sidebar = () => {
   const location = useLocation();
   const activeClass = 'rounded-md bg-gray-600 text-white p-2';
+  const inactiveClass = 'rounded-md text-gray-800 hover:bg-gray-300 hover:text-gray-900 p-2';
 
   const sideBarArray = new Map([
     ['Dashboard', '/dashboard'],
@@ -12,17 +13,16 @@ const Sidebar = () => {
     ['Students', '/students'],
     ['Message', '/message'],
     ['Content', '/content'],
-   
   ]);
 
   const renderNavLinks = () => (
-    <ul>
+    <ul className="flex flex-col gap-2">
       {[...sideBarArray].map(([key, value]) => (
-        <li key={value} className="mb-2">
+        <li key={value}>
           <NavLink
             exact
             to={value}
-            className={`text-blue-500 ${location.pathname === value ? activeClass : ''}`}
+            className={`${location.pathname === value ? activeClass : inactiveClass} text-center w-full`}
           >
             {key}
           </NavLink>
