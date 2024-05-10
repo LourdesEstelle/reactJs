@@ -10,6 +10,8 @@ const Sidebar = () => {
     ['Dashboard', '/dashboard'],
     ['Admin', '/admin'],
     ['Students', '/students'],
+    ['Message', '/message'],
+    ['Content', '/content'],
   ]);
 
   const renderNavLinks = () => (

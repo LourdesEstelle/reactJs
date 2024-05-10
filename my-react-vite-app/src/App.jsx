@@ -3,6 +3,7 @@ import './App.css'
 import Message from './components/Message'
 import MessageClass from './components/MessageClass'
 
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -27,6 +28,8 @@ function App() {
                       <Route exact path="/dashboard" element={<Dashboard />} />
                       <Route exact path="/admin" element={<Admin />} />
                       <Route exact path="/students" element={<Students/>} />
+                      <Route exact path="/message" element={<Message/>} />
+                      <Route exact path="/content" element={<Content/>} />
                     </Routes>
                 </div>
               <Footer />
