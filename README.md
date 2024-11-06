@@ -5,7 +5,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 const  App = () => {
   return (
     <View style={styles.container}>
-      <View style={styles.topIconsContainer}>
+      <View style={styles.header}>
         <MaterialCommunityIcons name="arrow-left" size={24} color="black" />
         <MaterialCommunityIcons name="bell" size={24} color="black" />
       </View>
@@ -17,17 +17,17 @@ const  App = () => {
       <Text style={styles.role}>React Native Developer</Text>
 
       <View style={styles.statsContainer}>
-        <View style={styles.statBox}>
+        <View style={styles.stat}>
           <Text style={styles.statNumber}>30</Text>
           <Text style={styles.statLabel}>Apps</Text>
           <Text style={styles.statSubLabel}>Deployed</Text>
         </View>
-        <View style={styles.statBox}>
+        <View style={styles.stat}>
           <Text style={styles.statNumber}>20</Text>
           <Text style={styles.statLabel}>Clients</Text>
           <Text style={styles.statSubLabel}>Satisfied</Text>
         </View>
-        <View style={styles.statBox}>
+        <View style={styles.stat}>
           <Text style={styles.statNumber}>10</Text>
           <Text style={styles.statLabel}>Experience</Text>
           <Text style={styles.statSubLabel}>Years</Text>
@@ -56,7 +56,7 @@ const  App = () => {
         
       </View>
 
-      <TouchableOpacity style={styles.subscribeButton}>
+      <TouchableOpacity style={styles.subscribe}>
           <MaterialCommunityIcons name="arrow-right" size={20} color="white" />
           <Text style={styles.subscribeText}>Subscribe</Text>
         </TouchableOpacity>
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: '#FFFFFF',
   },
-  topIconsContainer: {
+  header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     width: '100%',
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     width: '100%',
     marginBottom: 20,
   },
-  statBox: {
+  stat: {
     alignItems: 'center',
   },
   statNumber: {
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     marginRight: 10,
   },
-  subscribeButton: {
+  subscribe: {
     flexDirection: 'row',
       alignItems: 'center',
       backgroundColor: 'purple',
