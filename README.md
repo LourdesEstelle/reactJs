@@ -10,7 +10,7 @@ const  App = () => {
         <MaterialCommunityIcons name="bell" size={24} color="black" />
       </View>
 
-      <Image source={require('./src/assets/ID2.jpg')} style={styles.profileImage} />
+      <Image source={require('./src/assets/ID2.jpg')} style={styles.avatar} />
 
 
       <Text style={styles.name}>John Doe</Text>
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     width: '100%',
     paddingHorizontal: 10,
   },
-  profileImage: {
+  avatar: {
     width: 80,
     height: 80,
     borderRadius: 40,
