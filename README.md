@@ -1,196 +1,176 @@
-// ProfileInfo.js
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet, TouchableOpacity, TextInput } from 'react-native';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-const NameTitle = () => {
+const  App = () => {
   return (
-    <View style={styles.profileContainer}>
-      <Image
-        source={require('../../assets/ID2.jpg')}  // Placeholder image
-        style={styles.avatar}
-      />
-      <Text style={styles.name}>Lordweil E. Abalde</Text>
+    <View style={styles.container}>
+      <View style={styles.topIconsContainer}>
+        <MaterialCommunityIcons name="arrow-left" size={24} color="black" />
+        <MaterialCommunityIcons name="bell" size={24} color="black" />
+      </View>
+
+      <Image source={require('./src/assets/ID2.jpg')} style={styles.profileImage} />
+
+
+      <Text style={styles.name}>John Doe</Text>
       <Text style={styles.role}>React Native Developer</Text>
+
+      <View style={styles.statsContainer}>
+        <View style={styles.statBox}>
+          <Text style={styles.statNumber}>30</Text>
+          <Text style={styles.statLabel}>Apps</Text>
+          <Text style={styles.statSubLabel}>Deployed</Text>
+        </View>
+        <View style={styles.statBox}>
+          <Text style={styles.statNumber}>20</Text>
+          <Text style={styles.statLabel}>Clients</Text>
+          <Text style={styles.statSubLabel}>Satisfied</Text>
+        </View>
+        <View style={styles.statBox}>
+          <Text style={styles.statNumber}>10</Text>
+          <Text style={styles.statLabel}>Experience</Text>
+          <Text style={styles.statSubLabel}>Years</Text>
+        </View>
+      </View>
+
+      <TouchableOpacity style={styles.button}>
+        <MaterialCommunityIcons name="account-edit" size={20} color="white" />
+        <Text style={styles.buttonText}>Edit Profile</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
+        <MaterialCommunityIcons name="bell" size={20} color="white" />
+        <Text style={styles.buttonText}>Notifications</Text>
+      </TouchableOpacity>
+      <TouchableOpacity style={styles.button}>
+        <MaterialCommunityIcons name="account-cog" size={20} color="white" />
+        <Text style={styles.buttonText}>Settings</Text>
+      </TouchableOpacity>
+
+      <View style={styles.newsletterContainer}>
+        <TextInput 
+          placeholder="Enter email for newsletter" 
+          style={styles.input} 
+          placeholderTextColor="#999"
+        />
+        
+      </View>
+
+      <TouchableOpacity style={styles.subscribeButton}>
+          <MaterialCommunityIcons name="arrow-right" size={20} color="white" />
+          <Text style={styles.subscribeText}>Subscribe</Text>
+        </TouchableOpacity>
+
+      <Text style={styles.versionText}>Version 1.0.0</Text>
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  profileContainer: {
-    alignItems: 'center',
-    marginVertical: 20,
-  },
-  avatar: {
-    width: 80,
-    height: 80,
-    borderRadius: 40,
-  },
-  name: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    marginTop: 10,
-  },
-  role: {
-    fontSize: 14,
-    color: 'gray',
-  },
-});
-
-export default NameTitle;
-
-
-
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
-
-const Stat = ({ number, label }) => {
-  return (
-    <View style={styles.stat}>
-      <Text style={styles.number}>{number}</Text>
-      <Text style={styles.label}>{label}</Text>
-    </View>
-  );
-};
-
-const Stats = () => {
-  return (
-    <View style={styles.statsContainer}>
-      <Stat number="30" label="Apps" />
-      <Stat number="20" label="Clients" />
-      <Stat number="10" label="Experience" />
-    </View>
-  );
-};
-
-const styles = StyleSheet.create({
-  statsContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    width: '80%',
-    marginVertical: 20,
-  },
-  stat: {
-    alignItems: 'center',
-  },
-  number: {
-    fontSize: 18,
-    fontWeight: 'bold',
-  },
-  label: {
-    fontSize: 12,
-    color: 'gray',
-  },
-});
-
-export default Stats;
-
-
-// ButtonComponent.js
-import React from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
-
-const PurpleButton = ({ title, iconName }) => (
-  <TouchableOpacity style={styles.button}>
-    <Icon name={iconName} size={20} color="#FFF" style={styles.icon} />
-    <Text style={styles.buttonText}>{title}</Text>
-  </TouchableOpacity>
-);
-
-const Button = () => (
-  <View style={styles.container}>
-    <PurpleButton title="Edit Profile" iconName="user" />
-    <PurpleButton title="Notification" iconName="bell" />
-    <PurpleButton title="Settings" iconName="cog" />
-  </View>
-);
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: 'column',
+    flex: 1,
+    alignItems: 'center',
+    padding: 20,
+    backgroundColor: '#FFFFFF',
+  },
+  topIconsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    width: '100%',
+    paddingHorizontal: 10,
+  },
+  profileImage: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    marginTop: 10,
+  },
+  name: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#333',
+    marginTop: 10,
+  },
+  role: {
+    fontSize: 16,
+    color: '#666',
+    marginBottom: 20,
+  },
+  statsContainer: {
+    flexDirection: 'row',
     justifyContent: 'space-around',
-    marginVertical: 20,
-    marginHorizontal: 20,
+    width: '100%',
+    marginBottom: 20,
+  },
+  statBox: {
+    alignItems: 'center',
+  },
+  statNumber: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+  },
+  statLabel: {
+    fontSize: 14,
+    color: '#333',
+  },
+  statSubLabel: {
+    fontSize: 12,
+    color: '#999',
   },
   button: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: 'purple',
-    justifyContent: 'center',
-    marginVertical: 3,
+    backgroundColor: '#6c63ff',
     paddingVertical: 10,
-    paddingHorizontal: 15,
+    paddingHorizontal: 20,
     borderRadius: 20,
-  },
-  icon: {
-    marginRight: 8,
-    alignItems: 'center',
+    marginTop: 10,
+    width: '80%',
+    justifyContent: 'center',
   },
   buttonText: {
     color: '#FFF',
     fontSize: 16,
+    marginLeft: 10,
   },
-});
-
-export default Button;
-
-
-
-// Subscribe.js
-import React from 'react';
-import { View, TextInput, TouchableOpacity, Text, StyleSheet } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
-
-const Subscribe = () => {
-  return (
-    <View style={styles.container}>
-      <TextInput
-        style={styles.input}
-        placeholder="Enter email for newsletter"
-        keyboardType="email-address"
-        autoCapitalize="none"
-      />
-      <TouchableOpacity style={styles.button}>
-        <Icon name="paper-plane" size={16} color="purple" style={styles.icon} />
-        <Text style={styles.buttonText}>Subscribe</Text>
-      </TouchableOpacity>
-    </View>
-  );
-};
-
-const styles = StyleSheet.create({
-  container: {
+  newsletterContainer: {
+    flexDirection: 'row',
+    marginTop: 20,
+    width: '100%',
     alignItems: 'center',
-    marginVertical: 20,
+    justifyContent: 'center',
   },
   input: {
-    width: '80%',
-    padding: 10,
+    flex: 1,
+    height: 40,
+    borderColor: '#ccc',
     borderWidth: 1,
-    borderColor: 'purple',
-    borderRadius: 8,
-    marginBottom: 10,
-    fontSize: 16,
+    borderRadius: 10,
+    paddingHorizontal: 10,
+    marginRight: 10,
   },
-  button: {
+  subscribeButton: {
     flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#FFF',
-    paddingVertical: 8,
-    paddingHorizontal: 20,
-    borderRadius: 20,
-    borderWidth: 1,
-    borderColor: 'purple',
+      alignItems: 'center',
+      backgroundColor: 'purple',
+      paddingVertical: 8,
+      paddingHorizontal: 20,
+      borderRadius: 20,
+      borderWidth: 1,
+      borderColor: 'purple',
+      marginTop:20,
+      
+  },subscribeText:{
+    fontSize:10,
+    color:'white',
+    
   },
-  icon: {
-    marginRight: 8,
-  },
-  buttonText: {
-    color: 'purple',
-    fontSize: 16,
+  versionText: {
+    fontSize: 12,
+    color: '#999',
+    marginTop: 20,
   },
 });
 
-export default Subscribe;
-
-
+export default App;
